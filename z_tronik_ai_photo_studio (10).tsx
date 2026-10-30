@@ -11,7 +11,7 @@ const GEMINI_API_KEY = ""; // Dynamic key handled seamlessly at runtime
 
 export default function App() {
   // Navigation & State Management
-  const [activeTab, setActiveTab] = useState('home');
+  const [activeTab, setActiveTab] = useState('homee');
   const [activeCategory, setActiveCategory] = useState('all');
   const [searchQuery, setSearchQuery] = useState('');
   const [favorites, setFavorites] = useState([]);
